@@ -58,6 +58,21 @@ main{
     height: 499px;
     width: 499px;
     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+}
+
+.connect{
+    margin-bottom: 0;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.online{
+    margin-top: 0;
 }
 
 .boxcontainer{
@@ -65,4 +80,13 @@ main{
     display: flex;
     justify-content: center ;
     align-items: center;
+}
+
+.board{
+    height: 340px;
+    width: 360px;
+    background-color: var(--bg-tertiary);
+    margin-bottom: 30px ;
+    border-radius: 35px;
+    flex-wrap: wrap;
 }
