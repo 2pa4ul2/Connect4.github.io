@@ -42,9 +42,27 @@ ul{
     gap:2em;
     list-style-type: none;
     font-size: 18px;
+    padding: 0;
 }
 
 li{
     font-weight: 600;
 }
 
+main{
+    height: 100vh;
+}
+
+.bgbox{
+    background: var(--bg-main);
+    height: 499px;
+    width: 499px;
+    border-radius: 30px;
+}
+
+.boxcontainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
