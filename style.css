@@ -83,10 +83,29 @@ main{
 }
 
 .board{
-    height: 340px;
-    width: 360px;
+    height: 360px;
+    width: 400px;
     background-color: var(--bg-tertiary);
     margin-bottom: 30px ;
     border-radius: 35px;
     flex-wrap: wrap;
+}
+
+.boardset{
+    height: 360px;
+    width: 300px;
+    background-color: var(--bg-tertiary);
+    margin-bottom: 30px ;
+    border-radius: 35px;
+    flex-wrap: wrap;
+}
+
+.settings{
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+#brdsize{
+    width: 200px;
 }
