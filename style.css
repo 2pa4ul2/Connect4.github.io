@@ -96,7 +96,7 @@ main{
     width: 300px;
     background-color: var(--bg-tertiary);
     margin-bottom: 30px ;
-    border-radius: 35px;
+    border-radius: 20px;
     flex-wrap: wrap;
 }
 
@@ -114,12 +114,13 @@ main{
 #selectch{
     margin-left: 20px;
     width: 250px;
-    height: 40px;
-    
-}
-
-select{
-    border: var(--bg-namehighlight);
-    border-width: medium;
-    border-radius: 5px;
+    height: 35px;
+    background-color: transparent;
+    border: solid #91B1FF;
+    opacity: 80%;
+    border-width: thin;
+    border-radius: 5px;    
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 400;
 }
