@@ -103,9 +103,23 @@ main{
 .settings{
     margin-bottom: 0;
     text-align: center;
+    font-size: 14px;
+}
+
+.brdsz{
+    margin-left: 20px;
     font-size: 12px;
 }
 
-#brdsize{
-    width: 200px;
+#selectch{
+    margin-left: 20px;
+    width: 250px;
+    height: 40px;
+    
+}
+
+select{
+    border: var(--bg-namehighlight);
+    border-width: medium;
+    border-radius: 5px;
 }
